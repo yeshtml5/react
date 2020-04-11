@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         행복s
+         다시 일으켜보자
         </p>
         <h1>1111</h1>
         <a
