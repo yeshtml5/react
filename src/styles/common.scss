@@ -1,0 +1,46 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html,
+body {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: none;
+  height: 100vh;
+  font-size: 10px;
+  background: $GY5;
+  overflow: hidden;
+}
+img,
+svg {
+  vertical-align: top;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  &:active,
+  &:hover {
+    text-decoration: none;
+  }
+}
+.none {
+  display: none;
+}
+.inline-block {
+  display: inline-block;
+}
+.block {
+  display: block;
+  width: 100%;
+}
+.hide {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1%;
+  line-height: 1%;
+}
+ 
