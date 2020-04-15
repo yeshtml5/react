@@ -1,6 +1,6 @@
 import React from 'react'
 //layout
-import Layout from 'pages/common/layout'
+import Layout from 'pages/common/layout/'
 
 export default (props) => {
   return (

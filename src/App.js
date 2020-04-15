@@ -3,7 +3,7 @@ import React from 'react'
 import logo from 'static/svg/logo.svg'
 import './App.css'
 
-import Main from 'pages/main/'
+import Main from './pages/main/index'
 function App() {
   return (
     <div className="App">
