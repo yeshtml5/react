@@ -14,6 +14,7 @@ import App from './App'
 //style
 import 'styles/common.scss'
 import 'styles/layout.scss'
+import 'styles/swiper.scss'
 
 ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>

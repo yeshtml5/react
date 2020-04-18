@@ -7,7 +7,14 @@ import styled from 'styled-components'
 export default () => {
   //---------------------------------------------------------------------
   //info
-  const navi = [{title: 'Dashboard', link: '/dashboard'}]
+  const navi = [
+    {title: 'Dashboard', link: '/dashboard'},
+    {title: 'Dashboard', link: '/dashboard'},
+    {title: 'Dashboard', link: '/dashboard'},
+    {title: 'Dashboard', link: '/dashboard'},
+    {title: 'Dashboard', link: '/dashboard'},
+    {title: 'Dashboard', link: '/dashboard'}
+  ]
   //---------------------------------------------------------------------
   //makeContents
   const makeContents = (info) => {
