@@ -24,6 +24,7 @@ const Title = styled.div`
   text-align: center;
 
   span {
+    padding-right: 20px;
     line-height: 2rem;
   }
 

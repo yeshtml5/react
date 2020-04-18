@@ -20,7 +20,11 @@ header {
 }
 /*---Footer--*/
 footer {
-  background: #ccc;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  background: #ff0000;
 }
 /*---Main--*/
 main {
