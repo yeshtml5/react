@@ -1,0 +1,29 @@
+/*---root--*/
+#root {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-left: 200px;
+  box-sizing: border-box;
+}
+/*---Header--*/
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  display: block;
+
+  background: #111;
+}
+/*---Footer--*/
+footer {
+  background: #ccc;
+}
+/*---Main--*/
+main {
+  display: block;
+  width: 100%;
+  background: #eee;
+}
