@@ -17,6 +17,7 @@ export default () => {
       }>
       <Switch>
         <Route exact path="/" component={Main} />
+        <Route exact path="/react" component={Main} />
         <Route exact path="/error" component={ErrorPage} />
         <Redirect to="/error" />
       </Switch>
