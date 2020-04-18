@@ -4,13 +4,11 @@ import Layout from 'pages/common/layout'
 //pages
 import Main from './pages/main/index'
 
-
-function App() {
+const App = () => {
   return (
     <Layout>
- <Main />
+      <Main />
     </Layout>
-    
   )
 }
 

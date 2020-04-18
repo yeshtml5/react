@@ -3,19 +3,20 @@
   position: relative;
   display: block;
   width: 100%;
-  padding-left: 200px;
+  padding-left: 250px;
   box-sizing: border-box;
 }
 /*---Header--*/
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 200px;
+  right: 0;
+  width: 250px;
   height: 100vh;
   display: block;
-
-  background: #111;
+  background: #2a3042;
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
 }
 /*---Footer--*/
 footer {

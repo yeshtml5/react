@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +23,12 @@ a {
     text-decoration: none;
   }
 }
+.vertical-align-middle {
+  > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
 .none {
   display: none;
 }
@@ -42,4 +47,3 @@ a {
   font-size: 1%;
   line-height: 1%;
 }
- 

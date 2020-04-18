@@ -2,14 +2,18 @@
  * @title 레이아웃
  */
 import React from 'react'
-//layout
+//components
+import Logo from './logo'
+import Navi from './navi'
 
-const Header = (props) => {
+export default () => {
   //---------------------------------------------------------------------
   return (
     <header>
-      <nav>2</nav>
+      {/* 로고 */}
+      <Logo />
+      {/* 네비게이션 */}
+      <Navi />
     </header>
   )
 }
-export default Header
