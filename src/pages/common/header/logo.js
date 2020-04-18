@@ -9,7 +9,7 @@ export default function Logo() {
   return (
     <Title className="vertical-align-middle">
       <i>
-        <img src={react} />
+        <img src={react} alt="logo" />
       </i>
       <span>React library</span>
     </Title>

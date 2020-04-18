@@ -5,7 +5,6 @@ import React, {useContext} from 'react'
 //context
 import {Context} from 'context'
 //layout
-import Layout from 'pages/common/layout'
 //pages
 import Route from './route'
 

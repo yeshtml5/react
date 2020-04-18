@@ -16,7 +16,7 @@ import 'styles/common.scss'
 import 'styles/layout.scss'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <GlobalProvider>
       <App />
     </GlobalProvider>
