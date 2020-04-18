@@ -1,34 +1,35 @@
 /*---root--*/
 #root {
   position: relative;
-  display: block;
+  display: flex;
   width: 100%;
-  padding-left: 250px;
+  height: 100vh;
   box-sizing: border-box;
 }
 /*---Header--*/
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
   width: 250px;
-  height: 100vh;
-  display: block;
   background: #2a3042;
   box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
 }
-/*---Footer--*/
-footer {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  background: #ff0000;
-}
+
 /*---Main--*/
 main {
-  display: block;
+  display: flex;
+  flex: 1;
   width: 100%;
+  background: #fff;
+  flex-direction: column;
+  article {
+    display: block;
+    flex: 1;
+  }
+}
+
+/*---Footer--*/
+footer {
+  color: #111;
+  font-size: 16px;
+  padding: 10px 20px;
   background: #eee;
 }
