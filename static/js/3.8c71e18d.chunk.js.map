@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/common/error/index.js"],"names":["index"],"mappings":"yHAAA,mEAEe,SAASA,IACtB,OACE,6BACE","file":"static/js/3.8c71e18d.chunk.js","sourcesContent":["import React from 'react'\n\nexport default function index() {\n  return (\n    <div>\n      <span>22</span>\n    </div>\n  )\n}\n"],"sourceRoot":""}
