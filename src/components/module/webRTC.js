@@ -9,13 +9,11 @@ const WebRTC = () => {
   //---------------------------------------
   //browserDetails
   console.log(adapter.browserDetails)
-  const constraints = (window.constraints = {
-    audio: false,
-    video: true
-  })
+  const constraints = (window.constraints = {audio: true, video: true})
   async function init(e) {
     try {
       const stream = await navigator.mediaDevices.getUserMedia(constraints)
+      console.log(stream)
       handleSuccess(stream)
       e.target.disabled = true
     } catch (e) {
@@ -24,6 +22,7 @@ const WebRTC = () => {
   }
   function errorMsg(msg, error) {
     console.log(msg)
+    console.log(error)
     return
     const errorElement = document.querySelector('#errorMsg')
     errorElement.innerHTML += `<p>${msg}</p>`
